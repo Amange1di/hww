@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../style/Awards_Academic.scss";
 import certificate from "../img/Academic_cer.png";
 import certificatee from "../img/certificatee.png";
-import Meri from "../img/Meri.png";
+import Meri from "../img/meri.png";
 import MeriMen from "../img/meriMen.png";
 export const Academic = [
     {
