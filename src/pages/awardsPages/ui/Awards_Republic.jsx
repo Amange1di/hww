@@ -6,7 +6,7 @@ import "../style/Awards_Republic.scss";
 import certificate from "../img/certificate.png";
 import certificatee from "../img/certificatee.png";
 import Meri from "../img/Meri.png";
-import Meri_men from "../img/Meri_men.png";
+import MeriMen from "../img/MeriMen.png";
 
 export const Republican = [
     {
@@ -23,7 +23,7 @@ export const Republican = [
                 feedback: "Спасибо за возможность участвовать в этом проекте."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Анна Смирнова",
                 feedback: "Очень горжусь нашей командой и результатами."
             }
@@ -43,7 +43,7 @@ export const Republican = [
                 feedback: "Спасибо за возможность участвовать в этом проекте."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Анна Смирнова",
                 feedback: "Очень горжусь нашей командой и результатами."
             }
@@ -63,7 +63,7 @@ export const Republican = [
                 feedback: "Спасибо за возможность участвовать в этом проекте."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Анна Смирнова",
                 feedback: "Очень горжусь нашей командой и результатами."
             }
@@ -83,7 +83,7 @@ export const Republican = [
                 feedback: "Спасибо за возможность участвовать в этом проекте."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Анна Смирнова",
                 feedback: "Очень горжусь нашей командой и результатами."
             }
@@ -103,7 +103,7 @@ export const Republican = [
                 feedback: "Спасибо за возможность участвовать в этом проекте."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Анна Смирнова",
                 feedback: "Очень горжусь нашей командой и результатами."
             }

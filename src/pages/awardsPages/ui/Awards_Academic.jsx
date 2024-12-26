@@ -4,7 +4,7 @@ import "../style/Awards_Academic.scss";
 import certificate from "../img/Academic_cer.png";
 import certificatee from "../img/certificatee.png";
 import Meri from "../img/Meri.png";
-import Meri_men from "../img/Meri_men.png";
+import MeriMen from "../img/MeriMen.png";
 export const Academic = [
     {
         id: 1,
@@ -20,7 +20,7 @@ export const Academic = [
                 feedback: "Сделала всё, что могла и не могла, за что мы очень благодарны. Спасибо большое, будьте счастливы."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Мери Джейн",
                 feedback: "Сделала всё, что могла и не могла, за что мы очень благодарны. Спасибо большое, будьте счастливы."
             },
@@ -30,7 +30,7 @@ export const Academic = [
                 feedback: "Сделала всё, что могла и не могла, за что мы очень благодарны. Спасибо большое, будьте счастливы."
             },
             {
-                foto: Meri_men,
+                foto: MeriMen,
                 name: "Мери Джейн",
                 feedback: "Сделала всё, что могла и не могла, за что мы очень благодарны. Спасибо большое, будьте счастливы."
             }
