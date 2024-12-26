@@ -1,0 +1,62 @@
+.awards_Republic {
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    .republican {
+        padding: 49px 28px;
+        margin-bottom: 70px ;
+        background: #F7ECCF;
+        display: flex;
+
+        .img {
+
+            width: 689px;
+            height: 417px;
+
+            img {
+                width: 689px;
+                height: 417px;
+                object-fit: cover;
+            }
+
+        }
+
+        .text {
+            padding: 0 0 0 104px;
+            font-family: Lato sans-serif;
+
+
+            h5 {
+                font-size: 26px;
+                font-weight: 400;
+                color: rgba(154, 14, 0, 1);
+
+            }
+
+            h2 {
+                color: rgba(0, 95, 75, 1);
+                /* усту | Оң | асты | Сол */
+                margin: 47px 0 22px 0;
+
+            }
+
+            p {
+                font-size: 38px;
+                font-weight: 400;
+                line-height: 38px;
+                width: 546px;
+                height: 165px;
+
+            }
+
+            h4 {
+                margin-top: 37px;
+                font-size: 26px;
+                font-weight: 400;
+
+            }
+        }
+
+    }
+}
