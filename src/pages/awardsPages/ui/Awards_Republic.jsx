@@ -6,7 +6,7 @@ import "../style/Awards_Republic.scss";
 import certificate from "../img/certificate.png";
 import certificatee from "../img/certificatee.png";
 import Meri from "../img/Meri.png";
-import MeriMen from "../img/MeriMen.png";
+import MeriMen from "../img/meriMen.png";
 
 export const Republican = [
     {
