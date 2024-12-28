@@ -4,13 +4,13 @@ import { Header } from '../../widgets';
 import { Footer } from '../../widgets/footer/Footer';
 import '../styles/App.scss';
 import Awards from '../../pages/awardsPages/Awards';
-import DetailedAwards from '../../pages/awardsPages/ui/DetailedAwards';
+import Awards_Detailed from '../../pages/awardsPages/ui/Awards_Detailed';
 
 function App() {
     const routesArr = [
         {
             path: '/detailed_awards/:category/:id', 
-            element: <DetailedAwards />,
+            element: <Awards_Detailed />,
         },
     ];
 

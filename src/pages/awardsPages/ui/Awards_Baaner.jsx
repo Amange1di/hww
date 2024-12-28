@@ -1,12 +1,11 @@
-import React from 'react';
-import "../style/Awards_Hero.scss";
-import awardsHero_img from "../img/awards_hero.svg";
+import "../style/Awards_Baaner.scss";
+import awardsHero_img from "../img/awards_Baaner_img.png";
 
-const Awards_Hero = () => {
+const Awards_Baaner = () => {
   return (
-    <div id='awards_hero'>
-      <div className="awards_hero container">
-        <div className="awards_hero_text ">
+    <div id='awards_Baaner'>
+      <div className="awards_Baaner container">
+        <div className="awards_Baaner_text ">
           <h1>Наследие Успеха Наши  <br />Достижения</h1>
           <div>
             <p>Исламская Академия гордится тем, что предоставляет своим студентам уникальные возможности для роста и развития. Мы стремимся не только к передаче знаний, но и к формированию личностей, готовых внести вклад в общество.</p>
@@ -19,4 +18,4 @@ const Awards_Hero = () => {
   );
 }
 
-export default Awards_Hero;
+export default Awards_Baaner;
