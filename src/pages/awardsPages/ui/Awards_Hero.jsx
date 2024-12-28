@@ -1,6 +1,6 @@
 import React from 'react';
 import "../style/Awards_Hero.scss";
-import awardsHero_img from "../img/awardsHero_img.png";
+import awardsHero_img from "../img/awards_hero.svg";
 
 const Awards_Hero = () => {
   return (

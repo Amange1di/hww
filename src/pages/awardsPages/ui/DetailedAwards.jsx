@@ -5,21 +5,26 @@ import "../style/Detailed_Awards.scss";
 
 
 const DetailedAwards = () => {
-    const { id, category } = useParams(); 
-    const awardIndex = parseInt(id);  
+    const { id, category } = useParams();
+    const awardIndex = parseInt(id);
     const awardsData = category === 'academic' ? Academic : Republican;
     const award = awardsData[awardIndex];
-    const { image, title, description, students } = award;
+    const { image, title, description,descriptionTwo, students } = award;
 
     return (
         <div className="detailed_awards">
             <div className="detailed_awards_img">
-                <img src={image} alt={`Сертификат для ${title}`} />
+                <img src={image} alt={title} />
             </div>
             <div className="container">
                 <div className="detailed_awards_text">
                     <h2>{title}</h2>
-                    <p>{description }</p>
+                    <p>{description}</p>
+                    <div>
+                        {descriptionTwo.map((descriptionTwo, index) => (
+                            <p key={index}>{descriptionTwo}</p>
+                        ))}
+                    </div>
                 </div>
                 <h2>Студенты которые учавствовали в этом  <br />проекте</h2>
                 <div className="students">
