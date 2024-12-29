@@ -8,6 +8,18 @@ const facedat = [
     { aman: aman, p: "20.10.2024" },
     { aman: aman, p: "20.10.2024" },
     { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
+    { aman: aman, p: "20.10.2024" },
 ];
 
 const Gallery_img = () => {
