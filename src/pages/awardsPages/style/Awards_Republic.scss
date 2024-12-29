@@ -12,6 +12,7 @@
         .awards_republic_img {
             max-width: 50%;
             width: 100%;
+
             img {
                 width: 100%;
                 height: 100%;
@@ -51,6 +52,41 @@
     }
 
     @media (max-width: 1024px) {
+
+        .awards_republic_card {
+            .awards_republic_img {
+                // max-width: 314px;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .awards_republic_text {
+                h5 {
+                    font-size: 18px;
+
+                }
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
         .awards_republic_card {
             flex-direction: column;
 

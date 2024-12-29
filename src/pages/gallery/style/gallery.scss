@@ -1,0 +1,97 @@
+.gallery {
+    .gallery_select {
+
+        padding: 40px;
+
+        div {
+
+            select {
+
+                background: rgba(0, 95, 75, 1);
+                color: #fff;
+                padding: 10px;
+                font-size: 30px;
+                border: none;
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .gallery_group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .gallery_card {
+            margin: 50px 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .gallery_data {
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            background: rgba(0, 95, 75, 1);
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 24px;
+            position: relative;
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                border-style: solid;
+            }
+
+            &::before {
+                left: 0;
+                border-width: 22px 0 22px 15px;
+                border-color: transparent transparent transparent rgba(245, 245, 220, 1);
+            }
+
+            &::after {
+                right: 0;
+                border-width: 22px 15px 22px 0;
+                border-color: transparent rgba(245, 245, 220, 1) transparent transparent;
+
+            }
+        }
+    }
+}
+
+
+.gallery_banner {
+    max-width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 150px 0 40px 0;
+
+    .gallery_banner_line {
+        width: 210px;
+        height: 12px;
+        background: #226b4e;
+    }
+
+    .gallery_banner_lineTwo {
+        width: 50%;
+        height: 12px;
+        background: #226b4e;
+        margin-top: 100px;
+    }
+
+    h2 {
+        color: #226b4e;
+        font-size: 70px;
+        font-weight: 700;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
