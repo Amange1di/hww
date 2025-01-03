@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import "../style/Awards_Academic.scss";
+import "../style/AwardsAcademic.scss";
 import certificate from "../img/certificat.jpg";
 import certificatee from "../img/certificatee.jpg";
 import Meri from "../img/meri.jpg";
@@ -158,7 +158,7 @@ export const Academic = [
 
 ];
 
-const Awards_Academic = () => {
+const AwardsAcademic = () => {
     return (
         <div className="awards_academic container">
             <h1>Академические награды</h1>
@@ -186,4 +186,4 @@ const Awards_Academic = () => {
     );
 };
 
-export default Awards_Academic;
+export default AwardsAcademic;

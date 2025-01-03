@@ -1,0 +1,66 @@
+.history_baaner {
+    &_line {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+
+        .line {
+            width: 100%;
+            max-width: 219px;
+            background: rgba(0, 95, 75, 1);
+            height: 12px;
+        }
+
+        .linetwo {
+            width: 100%;
+            max-width: 823px;
+            background: rgba(0, 95, 75, 1);
+            height: 12px;
+            margin-top: 50px;
+        }
+    }
+
+    &_text1 {
+        margin-left: 650px;
+        color: #005F4B
+    }
+
+    &_text2 {
+        margin-left: 220px;
+        color: #005F4B
+    }
+
+    .history_after {
+        &_photo1 {
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+
+        &_concept {
+            display: flex;
+            align-items: center;
+            padding: 125px 0;
+
+            &_photo2 {
+                display: flex;
+            }
+
+            img {
+                width: 640px;
+                height: 398px;
+            }
+
+            &_text {
+                padding-left: 120px;
+
+                p {
+                    max-width: 638px;
+                    font-size: 22px;
+                    font-weight: 500;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

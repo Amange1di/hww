@@ -1,7 +1,6 @@
-import React from 'react';
-import "../style/Awards_Modal.scss"; 
+import "../style/AwardsModal.scss"; 
 
-const StudentModal = ({ student, onClose }) => {
+const AwardsModal = ({ student, onClose ,}) => {
     return (
         <>
             {student && (
@@ -23,4 +22,4 @@ const StudentModal = ({ student, onClose }) => {
     );
 };
 
-export default StudentModal;
+export default AwardsModal;

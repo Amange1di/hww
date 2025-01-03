@@ -1,15 +1,17 @@
 import "./style/Awards.scss"
-import Awards_Republic from './ui/Awards_Republic'
-import Awards_Academic from './ui/Awards_Academic'
-import Awards_Baaner from "./ui/Awards_baaner"
+import AwardsRepublic from './ui/AwardsRepublic'
+import AwardsAcademic from './ui/AwardsAcademic'
+import AwardsBaaner from "./ui/AwardsBaaner"
 import Gallery from "../gallery/Gallery"
+import History from "../historyPages/History"
 const Awards = () => {
   return (
     <div className='awards'>
-      {/* <Awards_Baaner /> */}
-      <Awards_Republic />
-      <Awards_Academic />
+      <AwardsBaaner />
+      <AwardsRepublic />
+      <AwardsAcademic />
       <Gallery/>
+      <History/>
     </div>
   )
 }

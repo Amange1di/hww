@@ -1,0 +1,28 @@
+.history_starting {
+  &_group {
+    display: flex;
+    align-items: start;
+
+    .history_starting_text {
+      line-height: 1.8;
+      color: #000000;
+      padding: 0px;
+      font-size: 25px;
+
+      p {
+        margin-bottom: 15px;
+      }
+    }
+
+    .photo3 {
+      width: 640px;
+      height: 670px;
+      display: flex;
+      align-items: center;
+      padding: 125px 0;
+
+    }
+
+  }
+}
+

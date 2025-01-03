@@ -1,7 +1,7 @@
-import "../style/Awards_Baaner.scss";
+import "../style/AwardsBaaner.scss";
 import awardsHero_img from "../img/awards_Baaner_img.png";
 
-const Awards_Baaner = () => {
+const AwardsBaaner = () => {
   return (
     <div id='awards_Baaner'>
       <div className="awards_Baaner container">
@@ -18,4 +18,4 @@ const Awards_Baaner = () => {
   );
 }
 
-export default Awards_Baaner;
+export default AwardsBaaner;

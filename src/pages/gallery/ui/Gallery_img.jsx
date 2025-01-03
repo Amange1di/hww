@@ -1,25 +1,18 @@
 
-import aman from "../../awardsPages/img/gallery_img.png";
+import gallery from "../../awardsPages/img/gallery_img.png";
 
-const facedat = [
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
-    { aman: aman, p: "20.10.2024" },
+const facedata = [
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+   
+    
 ];
 
 const Gallery_img = () => {
@@ -47,11 +40,11 @@ const Gallery_img = () => {
     ];
 
     const getImageSize = () => {
-        if (facedat.length === 1) {
+        if (facedata.length === 1) {
             return { width: 665, height: 430 };
-        } else if (facedat.length === 2 || facedat.length === 3) {
+        } else if (facedata.length === 2 || facedata.length === 3) {
             return { width: 413, height: 520 };
-        } else if (facedat.length === 4) {
+        } else if (facedata.length === 4) {
             return { width: 287, height: 220 };
         } else {
             return imageSizes;
@@ -77,7 +70,7 @@ const Gallery_img = () => {
             </div>
 
             <div className="gallery_group">
-                {facedat.map((item, index) => (
+                {facedata.map((item, index) => (
                     <div
                         className="gallery_card"
                         key={index}
@@ -92,7 +85,7 @@ const Gallery_img = () => {
                         {/* %  бул )( мисалы   сурот 5  шт болсо   а  мен   4 еле размер берген болсом 
                              5-суроту кайрадан  1-суротун размерин берет 
                              эгерде суротордун  саны imageSizes санынан көп болсо, imageSizes кайра колдонуу учун . */}
-                        <img className="gallery_img" src={item.aman} />
+                        <img className="gallery_img" src={item.gallery} />
                         <p className="gallery_data">{item.p}</p>
                     </div>
                 ))}

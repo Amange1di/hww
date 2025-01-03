@@ -2,7 +2,7 @@
 
 
 import { Link } from "react-router-dom";
-import "../style/Awards_Republic.scss";
+import "../style/AwardsRepublic.scss";
 import certificate from "../img/certificate.jpg";
 import certificatee from "../img/certificatee.jpg";
 import Meri from "../img/meri.jpg";
@@ -99,7 +99,7 @@ export const Republican = [
 
 ];
 
-const Awards_Republic = () => {
+const AwardsRepublic = () => {
     return (
         <div className='awards_republic container '>
             <h1>Республиканские награды</h1>
@@ -124,4 +124,4 @@ const Awards_Republic = () => {
     );
 };
 
-export default Awards_Republic;
+export default AwardsRepublic;
