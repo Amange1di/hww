@@ -1,10 +1,10 @@
 
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
-import { Academic } from './AwardsAcademic';
-import { Republican } from './AwardsRepublic';
-import "../style/AwardsDetailed.scss";
-import AwardsModal from './AwardsModal';
+import { Academic } from '../awardsPage/components/AwardsAcademic';
+import { Republican } from '../awardsPage/components/AwardsRepublic';
+import "./AwardsDetailed.scss";
+import AwardsModal from '../awardsPage/components/AwardsModal';
 
 const AwardsDetailed = () => {
     const { id, category } = useParams();
@@ -21,7 +21,7 @@ const AwardsDetailed = () => {
             <div className="awards_detailed_img">
                 <img src={image} alt={title} />
             </div>
-            <div className="container">
+            <div className="container ">
                 <div className="awards_detailed_text">
                     <h2>{title}</h2>
                     <p>{description}</p>
@@ -30,15 +30,15 @@ const AwardsDetailed = () => {
                             <p key={index}>{desc}</p>
                         ))}
                     </div>
+                <h2  >Студенты, которые участвовали в этом проекте</h2>
                 </div>
-                <h2>Студенты, которые участвовали в этом проекте</h2>
                 <div className="awards_students">
                     {students?.length > 0 &&
                         students.map((student, idx) => (
                             <div
                                 key={idx}
-                                className="awards_student"
-                                onClick={() => openModal(student)} 
+                                className="awards_student "
+                                onClick={() => openModal(student)}
                             >
                                 <img src={student.foto} alt={student.name} />
                                 <div>

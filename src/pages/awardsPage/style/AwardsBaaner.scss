@@ -1,0 +1,111 @@
+#awards_Baaner {
+  background: url(../../../shared/imgAwards/awardsBaaner.png) no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px;
+  max-width: 1920px;
+  margin: 0 auto 130px;
+  min-height: 950px;
+
+  .awards_Baaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+
+    .awards_Baaner_text {
+      h1 {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 120px 0 115px;
+        color: rgba(0, 95, 75, 1);
+        text-align: start;
+      }
+
+      div {
+        border-left: 4px solid rgba(0, 95, 75, 1);
+        padding-left: 20px;
+
+        p {
+          font-size: 30px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+      }
+
+      button {
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 1);
+        padding: 14px 28px;
+        width: 100%;
+        max-width: 354px;
+        margin-top: 50px;
+        background: rgba(0, 95, 75, 1);
+        border: none;
+        border-radius: 3px;
+
+
+      }
+    }
+
+    img {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .awards_Baaner {
+
+      align-items: end;
+
+      .awards_Baaner_text {
+        h1 {
+          font-size: 60px;
+          margin: 50px 0;
+        }
+
+        div {
+          padding-left: 15px;
+
+          p {
+            font-size: 28px;
+          }
+        }
+
+        button {
+          font-size: 18px;
+        }
+      }
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .awards_Baaner {
+      // flex-direction: column;
+      align-items: center;
+      padding: 10px;
+
+
+
+      .awards_Baaner_text {
+        width: 500px;
+        h1 {
+          font-size: 35px;
+        }
+
+        div {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

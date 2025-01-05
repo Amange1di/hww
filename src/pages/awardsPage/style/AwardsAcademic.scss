@@ -2,7 +2,12 @@
   padding-top: 40px;
 
   h1 {
-    margin-bottom: 27px;
+    margin: 27px 10px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    color: rgba(0, 95, 75, 1);
+    text-align: start;
   }
 
   .awards_academic_group {
@@ -46,6 +51,7 @@
           font-size: 35px;
           font-weight: 700;
           line-height: 1;
+          width: 100%;
         }
 
         p {
@@ -69,9 +75,52 @@
 
 @media (max-width: 768px) {
   .awards_academic {
+    padding-top: 40px;
+
+    h1 {
+      font-size: 30px;
+    }
+
     .awards_academic_group {
+
+
       .awards_academic_card {
         width: 100%;
+
+        .awards_academic_img {
+          max-width: 684px;
+          max-height: 417px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .awards_academic_text {
+          h5 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1;
+            margin: 25px 0;
+            color: rgba(154, 14, 0, 1);
+
+            span {
+              color: #000;
+            }
+          }
+
+          h2 {
+            font-size: 25px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+          h4 {}
+        }
       }
     }
   }

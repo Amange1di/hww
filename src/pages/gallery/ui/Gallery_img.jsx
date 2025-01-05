@@ -1,5 +1,5 @@
 
-import gallery from "../../awardsPages/img/gallery_img.png";
+import gallery from "../../../shared/imgAwards/gallery_img.png";
 
 const facedata = [
     { gallery: gallery, p: "20.10.2024" },
@@ -11,6 +11,24 @@ const facedata = [
     { gallery: gallery, p: "20.10.2024" },
     { gallery: gallery, p: "20.10.2024" },
     { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    
+    
    
     
 ];
