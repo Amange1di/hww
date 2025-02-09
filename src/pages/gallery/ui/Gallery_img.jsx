@@ -27,15 +27,76 @@ const facedata = [
     { gallery: gallery, p: "20.10.2024" },
     { gallery: gallery, p: "20.10.2024" },
     { gallery: gallery, p: "20.10.2024" },
-    
-    
-   
-    
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+    { gallery: gallery, p: "20.10.2024" },
+
+
+
+
 ];
 
 const Gallery_img = () => {
     const imageSizes = [
-        { width: 287, height: 220 },
+        { width: 287, height: 220,  },
         { width: 665, height: 430 },
         { width: 413, height: 520 },
         { width: 287, height: 220 },
@@ -47,9 +108,9 @@ const Gallery_img = () => {
 
 
         { width: 665, height: 430 },
-        { width: 337, height: 250 },
+        { width: 337, height: 250,  },
         { width: 287, height: 220 },
-        { width: 287, height: 220 },
+        { width: 287, height: 220},
         { width: 413, height: 520 },
         { width: 287, height: 220 },
         { width: 287, height: 220 },
@@ -90,9 +151,12 @@ const Gallery_img = () => {
             <div className="gallery_group">
                 {facedata.map((item, index) => (
                     <div
+                    id="gallery_card"
                         className="gallery_card"
                         key={index}
                         style={{
+                            marginTop: Array.isArray(imageSize) ? imageSize[index % imageSize.length].marginTop : undefined,
+
                             width: Array.isArray(imageSize)
                                 ? imageSize[index % imageSize.length].width  // бул жерде болсо егерде 5 тен  коп болсо  размер  берет 
                                 : imageSize.width, // бул жерде 1,2,3,4  гана сурот болсо размер берет 

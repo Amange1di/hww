@@ -6,7 +6,7 @@ import History from '../../pages/historyPages/History';
 import AwardsDetailed from '../../pages/awardsDetailPage/AwardsDetailed';
 import Header from '../../widgets/header/Header';
 import Footer from '../../widgets/footer/Footer';
-
+import  Event from "../../pages/eventsPage/Events"
 function App() {
     const routesArr = [
         {
@@ -24,7 +24,7 @@ function App() {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route index element={<Awards />} />  
+                <Route index element={<Event />} />  
                 {routesArr?.map((item, index) => (
                     <Route key={index} path={item.path} element={item.element} />
                 ))}

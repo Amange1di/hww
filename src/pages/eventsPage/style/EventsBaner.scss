@@ -1,0 +1,167 @@
+#award_Baaner {
+  background: url(../../../shared/imgAwards/awardsBaaner.png) no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px 120px 20px;
+
+  margin: 0 auto 130px;
+
+  .awards_Baaner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 120px 0 0 0;
+    color: rgba(0, 95, 75, 1);
+    text-align: start;
+  }
+
+  .p {
+    border-left: 4px solid rgba(0, 95, 75, 1);
+    padding-left: 20px;
+    margin-top: 60px;
+
+    p {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 1.4;
+    }
+  }
+
+
+
+  .awards_Baaner_text {
+
+    padding: 10px 0 0 10px;
+    margin-top: -100px;
+
+
+  }
+
+  img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #award_Baaner {
+
+    .awards_Baaner {
+      .awards_Baaner_text {
+        h1 {
+          font-size: 35px;
+        }
+      }
+
+      .p {
+
+        p {
+          font-size: 25px;
+        }
+      }
+
+
+
+      .awards_Baaner_text {}
+
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #award_Baaner {
+
+    .awards_Baaner {
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .p {
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+    }
+
+
+    img {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 668px) {
+  #award_Baaner {
+
+    .awards_Baaner {
+      .awards_Baaner_text {
+        width: 80%;
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      .p {
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+
+
+      img {
+
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #award_Baaner {
+
+    .awards_Baaner {
+      align-items:center;
+      .awards_Baaner_text {
+        
+        h1 {
+          font-size: 18px;
+          position: absolute;
+          z-index: 1;
+          width: 80%;
+          top: 0;
+        }
+      }
+
+      .p {
+margin-top: 160px;
+        p {
+          font-size: 12px;
+          width: 90%;
+        }
+      }
+
+
+
+      img {
+        margin-top: 80px;
+        width: 120px;
+      }
+    }
+  }
+}
