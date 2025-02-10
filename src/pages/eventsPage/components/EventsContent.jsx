@@ -40,8 +40,6 @@ const EventsData = [
 ];
 
 
-
-
 const EventsContent = () => {
     const [openEventId, setOpenEventId] = useState(null);
 
